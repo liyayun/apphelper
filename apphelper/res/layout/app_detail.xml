@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="40dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="程序名"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_app_detail_name"
+                android:layout_width="0dip"
+                android:layout_height="40dip"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:text="程序名"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="40dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="包名"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_app_detail_packname"
+                android:layout_width="0dip"
+                android:layout_height="40dip"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:text="包名"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff0000ff"
+            android:paddingLeft="10dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dip"
+                android:gravity="center_vertical"
+                android:text="权限列表"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </TableRow>
+    </TableLayout>
+
+    <ScrollView
+        android:id="@+id/sv_app_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ScrollView>
+
+</LinearLayout>

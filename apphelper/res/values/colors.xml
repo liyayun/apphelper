@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="manager_title_bg">#db3926a7</color>
+    <color name="manager_title_bg_clicked">#ff708a84</color>
+    <color name="setpass_message">#ffff0000</color>
+    <color name="backgroundcolor">#ff404040</color>
+    <color name="textcolor">#ffd4d0c8</color>
+</resources>
+

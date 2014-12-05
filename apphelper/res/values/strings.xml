@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">应用助手</string>
+    <string name="manager_activity_title">所有应用</string>
+    <string name="changePass">修改程序锁密码</string>
+    <string name="item_exit">退出</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_app_lock">程序锁</string>
+    <string name="title_activity_set_pass">程序锁密码更改</string>
+    <string name="title_input_pass">你要打开的程序处于保护状态</string>
+    <string name="app_detail_title">权限查看</string>
+
+</resources>
